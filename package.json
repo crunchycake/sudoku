@@ -1,0 +1,28 @@
+{
+  "name": "sudokujs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start:backend": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crunchycake/sudoku.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crunchycake/sudoku/issues"
+  },
+  "homepage": "https://github.com/crunchycake/sudoku#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "helmet-csp": "^3.4.0",
+    "nodemon": "^2.0.15"
+  }
+}
